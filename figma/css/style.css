@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 150px;
+    max-width: 1700px;
+}
+body{
+    background-color:#F3F5FA;
+}
+header{
+    width: 100%;
+    height: 180px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+main .logo image{
+    width: 223px;
+    height: 45px;
+}
+main .logo{
+    margin-left: 92px;
+}
+main .right--logo{
+    margin-right: 92px;
+    position: relative;
+}
+main .right--logo input{
+    width: 270px;
+    height: 60px;
+    border-radius: 100px;
+    padding-top: -10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+main .right--logo input::placeholder{
+    color:#888888 ;
+    padding-left: 10px;
+}
+main .right--logo img{
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    right: 6px;
+    width: 50px;
+    height: 50px;
+}
+main .menu ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    font-size: 22px;
+}
+main .menu ul li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #2447F9;
+}
+/* <<<<<<<<<<>>>>>>>> */
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 150px;
+}
+.container .left{
+    margin-top: 60px;
+}
+.container .left , .container .right{
+    width: 50%;
+    height: auto;
+}
+.container .left p{
+    border: 2px solid white;
+    width: 180px;
+    height: 40px;
+    border-radius: 100px;
+    font-size: 16px;
+    background-color: #F5EAE9;
+    color: #FC7A46;
+    text-align: center;
+    padding: 8px 0px;
+}
+.container .left h1{
+    font-size: 52px;
+    width: 516px;
+    height: 160px;
+    margin-top: 15px;
+}
+.container .left h2{
+    width: 457px;
+    height: 91px;
+    color: #34364A;
+}
+.container .left .btn{
+    display: flex;
+    gap: 20px;
+}
+.container .left .btn button{
+    width: 210px;
+    height: 60px;
+    border-radius: 50px;
+    
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: white;
+    color: #2447F9;
+    border: 2px solid #2447F9;
+}
+.container .left .btn button:hover{
+    cursor: pointer;
+    background-color: #2447F9;
+    color: white;
+}
+/* <<<<<<<<<<RIGHT>>>>>>>>>>>>> */
+.container .right .parent{
+    width: 406px;
+    height: 556px;
+    margin-left: 340px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+}
+.container .right .gavda{
+    position: absolute;
+    top: 158px;
+}
+.container .right .bosh{
+    position: absolute;
+    top: 8px;
+}
+.container .right .followers img{
+    width: 154px;
+    height: 154px;
+    position: absolute;
+    right: -15px;
+    top: 112px;
+    border-radius: 45px;
+}
+.container .right .blur p{
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 245px;
+    border-radius: 20px;
+    position: absolute;
+    right: 280px;
+    border: 2px solid #bcbec7;
+    background:#ffffffa6;
+    color: #2447F9;
+    /* border: none; */
+    box-shadow:10px;
+    font-size: 18px;
+}
+.container .right .interrogation img{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 211px;
+}
+.container .right .sms img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: 10px;
+    top: 411px;
+    border-radius: 50%;
+}
+/* <<<<<<<<<>>>>>>>>>>>>> */
+.items ul{
+    list-style: none;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    margin-bottom: 35px;
+    color: #BABABA;
+}
+/* <<<<<<<<<<>>>>>>>>>>>>>> */
+.info{
+    margin-top: 50px;
+}
+.info .container .parent{
+    display: flex;
+    gap: 50px;
+}
+.info .container .parent .child--left{
+    width: 50%;
+}
+.info .container .parent .child-left img{
+    width: 488px;
+    height: 700px;
+}
+.info .container .parent .child--right h2{
+    width: 572px;
+    height: 108px;
+    font-size: 36px;
+    color: #34364A;
+    margin-left: 30px;
+}
+.info .container .parent .child--right .title ul li{
+    width: 350px;
+    height: 252px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.info .container .parent .child--right .title ul{
+    margin-left: 35px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.info .container .parent .child--right .title ul li p{
+    margin-top: -50px;
+    width: 276px;
+    height: 61px;
+    margin-left: 30px;
+}
+.info .container .parent .child--right .title ul li img{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+/* <<<<<<<<<<<>>>>>>>>>>> */
+.help{
+    width: 50%;
+}
+.help p{
+    width: 94px;
+    height: 33px;
+    font-size: 22px;
+    color: #22C58B;
+    margin-top: 100px;
+}
+.help h2{
+    width: 427px;
+    height: 108px;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.help h4{
+    width: 360px;
+    height: 81px;
+    font-size: 18px;
+    color: #888888;
+    margin-top: 40px;
+}
+.help button{
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: #2447F9 ;
+    color: white;
+    border-radius: 50px;
+}
+.help .man--foto img{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius:150px ;
+}
+.help{
+    position: relative;
+}
+.help--man{
+    margin-left: 250px;
+}
+.help h5{
+    text-align: center;
+    width: 128px;
+    height: 72px;
+    font-size: 24px;
+    padding-top: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+ .help .obunachi img{
+    position: absolute;
+    left: 380px;
+    bottom: -50px;
+    border-radius: 20px;
+ }
+ .bigboy{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+ }
+ .help .interrogation {
+    position: absolute;
+    top: 650px;
+    right: -200px;
+ }
+ .help .circle{
+    position: absolute;
+    top: 700px;
+    left: -200px;
+ }
+ .help .circle img{
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+ }
+ .help .pointer{
+    position: absolute;
+    top: 400px;
+    right: 0;
+ }
+
+ /* <<<<<<<<<<<<<<>>>>>>>>>>> */
+.request{
+    margin-top: 600px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.request .text h2{
+    font-size: 38px;
+}
+.request .text p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #888888;
+}
+.request .items{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.request .items .item{
+    width: 398px;
+    height: 400px;
+    border: none;
+    margin-top: 120px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+.request .items .item img{
+    width: 186px;
+    height: 60px;
+    margin-right: 182px;
+    margin-top: 60px;
+}
+.request .items .item p{
+    width: 325px;
+    height: 99px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.request .items .item button{
+    width: 180px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 61px;
+    margin-right: 188px;
+    border: none;
+    background-color: #EAEDFF;
+    color: #2447F9;
+    font-size: 18px;
+}
+
+.request .items .item button:hover{
+    cursor: pointer;
+    background-color: #2447F9;
+    color: white;
+}
+
+/* <<<<<<<>>>>>>>>> */
+.selengkapnya{
+    text-align: center;
+    position: relative;
+    
+}
+.selengkapnya button{
+    width: 250px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #2447F9;
+    background-color: white;
+    color: #2447F9;
+    font-size: 22px;
+    align-items: center;
+}
+.selengkapnya button:hover{
+    cursor: pointer;
+    background-color: #2447F9;
+    color: white;
+    border: 2px solid white;
+}
+.selengkapnya button img{
+    position: absolute;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    left: 795px;
+    top: 19px;
+}
+/* <<<<<<<>>>>>>>>>>> */
+.evaluation{
+    margin-top: 210px;
+}
+.evaluation .items .item h2{
+    font-size: 36px;
+    text-align: center;
+}
+.evaluation .items .item p{
+    font-size: 18px;
+    text-align: center;
+    color: #888888;
+    margin-top: 20px;
+}
+
+.character{
+    width: 800px;
+    height: 400px;
+    margin: 122px auto 100px auto;
+    border: 2px solid #888888;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px;
+}
+.character .parent{
+    display: flex;
+}
+.character .parent .child__left{
+    width: 100%;
+}
+.character .parent .child__left .reyting img{
+    width: 121px;
+    height: 83px;
+    margin-top: 184px;
+    margin-left: 50px;
+}
+.character .parent .child__right .charac{
+    width: 48px;
+    height: 110px;
+    margin-top: 30px;
+}
+.character .parent .child__right .woman--foto{
+    width: 224px;
+    height: 74px;
+}
+.character .parent .child__right .title p{
+    color: #34364A;
+    width: 509px;
+    height: 125px;
+    margin-top: 31px;
+    font-size: 18px;
+    margin-right: 53px;
+}
+ .parent{
+    position: relative;
+ }
+ .parent .left--left__left{
+    position: absolute;
+    left: -100px;
+    top: 170px;
+    border-radius: 50%;
+ }
+ .parent .right--right__right{
+    position: absolute;
+    right: -100px;
+    top: 170px;
+    border-radius: 50%;
+ }
+ .parent .yozuv img{
+    height: 375px;
+    position: absolute;
+    left: -400px;
+   border-top: 2px solid black;
+   border-right: 2px solid black;
+   border-bottom: 2px solid black;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+ }
+ .parent .yulduz img{
+    width: ;
+    position: absolute;
+    right: -400px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom:2px solid black ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+ }
+/* >>>>>>>>>>>>>>>>>>>>>>>>> */
+.yulduzcha{
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+}
+.yulduzcha .title{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yulduzcha .title p{
+    font-size: 18px;
+    color: #888888;
+}
+/* <<<<<<<<<<<>>>>>>>>>> */
+footer{
+    background-color: #2447F9;
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+footer .foto img{
+    width: 1600px;
+}
+footer .foto button{
+position: absolute;
+width: 282px;
+height: 70px;
+background-color:#2447F9;
+color: white;
+font-size: 24px;
+border-radius: 100px;
+border: none;
+top: 640px;
+left: 661px;
+}
+footer .foto button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #2447F9;
+    color: #2447F9;
+}
+
+footer .btn{
+    width: 1600px;
+    margin-top: 100px;
+}
+footer .btn .brend{
+    border: none;
+    margin-left: 100px;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: white;
+}
+footer .btn .brend p span {
+    color: #FC7A46;
+}
+footer .btn .menu ul{
+    position: relative;
+    border: none;
+    margin-left: 100px;
+    display: flex;
+    font-size: 26px;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    padding-bottom: 25px;
+}
+footer .btn  .open{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    font-size: 26px;
+    color: white;
+    
+
+}
+
+
+
+
+
+
+

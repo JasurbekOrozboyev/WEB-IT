@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 30px;
+}
+.container{
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.container .left{
+    width: 50%;
+    height: 100%;
+    background-color:#2447F9;
+}
+.container .right{
+    width: 50%;
+    height: 100%;
+}
+.left .top--left img{
+    border-bottom-right-radius: 205px;
+}
+.title h1{
+    font-size: 36px;
+    color: white;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.title p{
+    width: 272px;
+    height: 72px;
+    font-size: 18px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.title img{
+    width: 480px;
+    height: 480px;
+    background-color: #2447F9;
+    border: none;
+    margin-left: 190px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+/* <<<<<<<<<<<>>>>>>>>>>>>>> */
+.right{
+    border-radius: 5px;
+    /* border: none; */
+    background-color: #F4F6FB;
+    border: none;
+}
+.right .box{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    border: 2px solid rgba(248, 245, 245, 0.307);
+    margin: 170px auto;
+}
+.right .box h2{
+    margin-left: 65px;
+    font-size: 32px;
+    margin-top: 55px;
+}
+.right .box .text p{
+    width: 241px;
+    height: 48px;
+    margin-left: 65px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.right .box .name p{
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.right .box .name input{
+    width: 370px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 65px;
+}
+.email p{
+    margin-left: 65px;
+    font-size:20px;
+    margin-top: 20px;
+}
+.email input{
+    width: 370px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 65px;
+}
+.password p{
+    margin-left: 65px;
+    font-size:20px;
+    margin-top: 20px;
+}
+.password input{
+    width: 370px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 65px;
+}
+.right .box .btn button{
+    width: 370px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 65px;
+    margin-top: 30px;
+    background-color: #2447F9;
+    color: white;
+    font-size: 20px;
+}
+.right .box .login{
+    display: flex;
+}
+.right .box .login p{
+    margin-left: 65px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.right .box .login a{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
